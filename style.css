@@ -380,6 +380,7 @@ img.home{
 }
 img.atimg{
     margin-left: 5%;
+    margin-top: 10%;
 }
 .right{
     position: absolute;
@@ -387,16 +388,34 @@ img.atimg{
     translateX(30%)
     translateY(-30%);
  top: 5%;
- left: 63%;
+ left: 62%;
  background-color: var(--Clr-txt);
+}
+.imgyarisa{
+  background-color:var(--dd);
+  width: 35vw;
+  height: 35vw;
+  border-radius:50%;
+  overflow: hidden;
 }
 .tokim{
     transform: scale(0.7)
     translateX(17%)
-    translateY(-55%)
-    rotate(15deg);
+    translateY(-55%);
     margin-bottom: -20%;
     background-color: var(--dd);
+    overflow: hidden;
+}
+.tokim  img{
+    margin-left: 25%;
+    margin-top: 8%;
+}
+.roadimg{
+    margin-top: 10%;
+}
+.roads{
+    overflow:hidden;
+    top: 12%;
 }
 .r2{
     position: absolute;
@@ -404,12 +423,22 @@ img.atimg{
     translateX(20%)
     ;
     background-color: var(--Clr-txt);
+    overflow: hidden;
 }
 /* .illu{
     display: flex;
 } */
 .img-meme.at{
     background-color: var(--dd);
+    overflow: hidden;
+}
+
+#homeI{
+    transform: scale(0.7);
+    margin-top: 50%;
+}
+.howto{
+    margin-top: 5%;
 }
 /* media queries */
 @media (max-width:900px) {
@@ -437,7 +466,7 @@ img.atimg{
     translateX(0)
     translateY(0);
     position: absolute;
-    top: 5%;
+    top: 7%;
     left: 63%;
     background-color: var(--Clr-txt);
    }
@@ -452,8 +481,7 @@ img.atimg{
 .tokim{
     transform: scale(0.8)
     translateX(17%)
-    translateY(-55%)
-    rotate(15deg);
+    translateY(-55%);
     margin-bottom: -20%;
     background-color: var(--dd);
 }
